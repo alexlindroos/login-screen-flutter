@@ -75,7 +75,6 @@ _returnLoginField(IconData icon, bool isObscure) {
     obscureText: isObscure,
     style: new TextStyle(fontSize: 15.0),
     decoration: new InputDecoration(
-
       icon: new Icon(
           icon,
           color: Colors.deepPurpleAccent
@@ -103,7 +102,6 @@ _returnLoginButton() {
             child: new Text(
               "LOGIN",
              style: const TextStyle(
-                fontFamily: 'Ostrich',
                 color: Colors.deepPurpleAccent,
                 fontSize: 20.0,
               ),
@@ -117,7 +115,6 @@ _returnForgotPassword() {
     child: new Text(
       "FORGOT PASSWORD?",
       style: const TextStyle(
-        fontFamily: 'Ostrich',
         color: Colors.grey,
         fontSize: 10.0,
       ),
@@ -133,7 +130,6 @@ _returnPrivacyText() {
         new Text(
           "By logging in you agree to our",
           style: const TextStyle(
-            fontFamily: 'Ostrich',
             color: Colors.white,
             fontSize: 11.0,
           ),
@@ -141,7 +137,6 @@ _returnPrivacyText() {
         new Text(
           "privacy policy & terms of service",
           style: const TextStyle(
-            fontFamily: 'Ostrich',
             color: Colors.white,
             fontSize: 11.0,
           ),
